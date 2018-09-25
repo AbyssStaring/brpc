@@ -1,6 +1,6 @@
 NEED_LIBPROTOC=1
 include config.mk
-
+#test
 # Notes on the flags:
 # 1. Added -fno-omit-frame-pointer: perf/tcmalloc-profiler use frame pointers by default
 # 2. Added -D__const__= : Avoid over-optimizations of TLS variables by GCC>=4.8
